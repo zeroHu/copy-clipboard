@@ -3,7 +3,7 @@
 ```javascript
 // 第一步，引入 copy-clipboard
 <script src="copy-clipboard.js"></script>
-or 
+// or 
 import "copy-clipboard.js"
 // 第二步，复制功能 （注意，不能直接调用new CopyClipBoard， 会失败，需要用户与页面交互的情况下调用，比如点击事件发生时）
 let copyBtn = document.getElementById('copyBtn');
@@ -12,3 +12,5 @@ copyBtn.onclick = function() {
 }
 // now you are success 
 ```
+tips: copy-clipboard.js 在src目录下， 有个演示项目在example下的index.html
+[体验地址](http://www.zeroyh.cn/needLearn/clipboard.html)
